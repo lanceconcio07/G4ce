@@ -1,0 +1,28 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/node_modules
+/vendor
+
+# Laravel generated and local data
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/bookings/*
+/storage/inquiries/*
+/bootstrap/cache/*.php
+
+# Build output and local tooling
+/public/build
+/public/hot
+/.phpunit.cache
+/.idea
+/.vscode
+/.agent
+/.impeccable
